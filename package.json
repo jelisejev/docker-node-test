@@ -1,0 +1,22 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "jwt-simple": "0.5.1",
+    "koa": "^2.2",
+    "koa-bodyparser": "^4.2",
+    "koa-passport": "^3.0",
+    "koa-route": "^3.0",
+    "passport-jwt": "2.2.1",
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
+  },
+  "engines": {
+    "node": ">=7"
+  }
+}
